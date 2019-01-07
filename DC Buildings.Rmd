@@ -20,7 +20,6 @@ library(rgdal)
 library(sf)
 
 # Set wd
-setwd("C:/Users/wb516241/OneDrive - WBG/Oleksiy Anokhin/My R Work/Shiny apps/App DC Buildings")
 
 dc_buildings <- st_read("DistrictofColumbia.geojson", quiet = TRUE)
 
